@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Footlight MT Light';
+    src: url('../asset/FTLTLT.TTF');
+}
+
+* {
+    margin:0;
+    padding :0;
+}
+
+body {
+    background-color: #191919;
+    font-family: 'Footlight MT Light', 'Times New Roman', serif;
+}
+
+.body-wrapper {
+    margin: auto;
+    max-width: 1500px;
+}
+
+.img-logo {
+    height:70px;
+    width: 150px;
+}
+
+.header {
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    padding-top : 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2.2rem ;
+}
+
+.menu-item {
+    list-style: none;
+    color: white;
+    padding-right: 1rem;
+}
+
+.menu-item a {
+    color :white;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+}
+
+.menu-dropdown:hover .submenu {
+    display: block;
+    border: 1px solid white;
+    background-color: black;
+    padding: 5px 10px;
+}
+
+.submenu-item {
+    list-style: none;
+    color: white;
+    margin-top: 5px;
+}
+
+.submenu-item a {
+    color :white;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.triangle {
+    font-size: 20px;
+}
+
+.sep {
+    font-size: 30px;
+}
+
+.btn {
+    height:60px;
+    width:150px;
+    border-radius: 1rem;
+    background-color: #191919;
+    border-color: #2c9ce3;
+    border-width: 3px;
+    font-size: 22px;
+    text-decoration: none;
+    color: #2c9ce3;
+    cursor: pointer;
+}
+
+.btn:hover {
+    border-color: white;
+    color: white;
+}
