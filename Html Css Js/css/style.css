@@ -361,6 +361,11 @@ footer {
     margin-top: 1.3rem;
 }
 
+.hero-skill-item {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
 .hero-sep {
     width: 1050px;
     margin: auto;
