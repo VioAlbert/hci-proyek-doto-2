@@ -412,6 +412,14 @@ footer {
     width: 100%;
 }
 
+.form-checkbox {
+    max-width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
 .form-submit {
     display: flex;
     flex-direction: column;
