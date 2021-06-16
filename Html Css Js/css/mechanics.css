@@ -1,0 +1,226 @@
+@font-face {
+    font-family: 'Footlight MT Light';
+    src: url('../asset/FTLTLT.TTF');
+}
+@font-face{
+    font-family: 'Copperplate Gothic Bold';
+    src : url('../asset/COPRGTB.TTF');
+}
+html{
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #191919;
+    font-family: 'Footlight MT Light', 'Times New Roman', serif;
+}
+
+.body-wrapper {
+    margin: auto;
+    max-width: 1350px;
+}
+
+.img-logo {
+    height: 70px;
+    width: 150px;
+}
+
+header {
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+nav {
+    padding-top : 1rem;
+    display: flex;
+    align-items: center;
+    
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2.2rem;
+}
+
+.menu-item {
+    list-style: none;
+    color: white;
+    padding-right: 1rem;
+}
+
+.menu-item a {
+    color :white;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+}
+
+.menu-dropdown:hover .submenu {
+    display: block;
+    border: 1px solid white;
+    background-color: black;
+    padding: 5px 10px;
+}
+
+.submenu-item {
+    list-style: none;
+    color: white;
+    margin-top: 5px;
+}
+
+.submenu-item a {
+    color :white;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.triangle {
+    font-size: 20px;
+}
+
+.sep {
+    font-size: 30px;
+}
+
+.btn {
+    height: 60px;
+    width: 150px;
+    border-radius: 1rem;
+    background-color: #191919;
+    border-color: #2c9ce3;
+    border-width: 3px;
+    font-size: 22px;
+    text-decoration: none;
+    color: #2c9ce3;
+    cursor: pointer;
+}
+
+.btn:hover {
+    border-color: white;
+    color: white;
+}
+.sec1{
+    background-size:auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../asset/mechanicsbg.jpg');
+}
+
+.sec1-wrapper{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.sec1-txt{
+    font-size: 40px;
+    font-family: 'Copperplate Gothic Bold' ,'Times New Roman', serif;
+    color:white;
+}
+.sec1-desc{
+    font-size: 22px;
+    font-family: 'Footlight MT Light','Times New Roman',serif;
+    font-weight: 200;
+    color: #cfcaca;
+    padding-bottom: 1.5rem;
+}
+.btn-group{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-group button{
+    background-color: transparent;
+    border-color: white;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 18px;
+    font-family: 'Footlight MT Light', 'Times New Roman', serif;
+    height: 50px;
+    width: 130px;
+    border-width: 2px;
+    cursor: pointer;
+}
+.btn-group button:hover{
+    color: rgb(227, 231, 19);
+    border-color:rgb(227, 231, 19);
+}
+.content,.sec2 {
+    margin-top:0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:2rem;
+}
+.content p,.sec2 p{
+    text-align: justify;
+    width: 65%;
+    color: #cfcaca;
+    font-size: 22px;
+    font-family: 'Footlight MT Light','Times New Roman',serif;
+    padding-bottom: 1rem;
+}
+.title{
+    width:65%;
+    font-size: 30px;
+    color: white;
+    font-family: 'Footlight MT Light','Times New Roman',serif;
+    padding-bottom: 3rem;;
+}
+.content img{
+    width:50%;
+    padding-bottom: 2rem;
+}
+
+footer {
+    padding-top:2rem;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-txt {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 4rem;
+}
+
+.foot-icon {
+    margin: auto;
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.icon {
+    width: 45px;
+    height: 45px;
+}
+
+.foot-txt p {
+    text-align: center;
+    color : #2a2929;
+}
+ 
