@@ -308,7 +308,9 @@ footer {
     margin: 100px auto;
     text-align: center;
     border-radius: 20px;
-    background-color: #20374c;
+    /* background-color: #20374c; */
+    background: rgb(25,25,25);
+    background: linear-gradient(180deg, rgba(25,25,25,1) 0%, rgba(32,55,76,1) 50%);
 }
 
 .hero-intro-title {
