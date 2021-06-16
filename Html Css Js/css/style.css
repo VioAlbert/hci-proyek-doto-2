@@ -1,0 +1,360 @@
+@font-face {
+    font-family: 'Footlight MT Light';
+    src: url('../asset/FTLTLT.TTF');
+}
+@font-face{
+    font-family: 'Copperplate Gothic Bold';
+    src : url('../asset/COPRGTB.TTF');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #191919;
+    font-family: 'Footlight MT Light', 'Times New Roman', serif;
+}
+
+.body-wrapper {
+    margin: auto;
+    max-width: 1350px;
+}
+
+.img-logo {
+    height: 70px;
+    width: 150px;
+}
+
+header {
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+nav {
+    padding-top : 1rem;
+    display: flex;
+    align-items: center;
+    padding-bottom : 2rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2.2rem;
+}
+
+.menu-item {
+    list-style: none;
+    color: white;
+    padding-right: 1rem;
+}
+
+.menu-item a {
+    color :white;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+}
+
+.menu-dropdown:hover .submenu {
+    display: block;
+    border: 1px solid white;
+    background-color: black;
+    padding: 5px 10px;
+}
+
+.submenu-item {
+    list-style: none;
+    color: white;
+    margin-top: 5px;
+}
+
+.submenu-item a {
+    color :white;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.triangle {
+    font-size: 20px;
+}
+
+.sep {
+    font-size: 30px;
+}
+
+.btn {
+    height: 60px;
+    width: 150px;
+    border-radius: 1rem;
+    background-color: #191919;
+    border-color: #2c9ce3;
+    border-width: 3px;
+    font-size: 22px;
+    text-decoration: none;
+    color: #2c9ce3;
+    cursor: pointer;
+}
+
+.btn:hover {
+    border-color: white;
+    color: white;
+}
+.content {
+    margin-top : 4rem;
+}
+
+.sec1-txt {
+    font-size: 80px;
+    color: white;
+    font-weight: 100;
+    margin-left:1rem;
+    text-align: center;
+}
+
+.sec1-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-sec1 {
+    height: 300px;
+    width: 550px;
+    margin-right : 4rem;
+}
+
+.sec2, .sec3 { 
+   background-size: cover;
+   background-position: center;
+   height: 800px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.sec2 {
+    margin-top: 3rem;
+    background-image: url('../asset/img2.jpg');
+}
+
+.block-sec2 {
+    height: 200px;
+}
+
+.sec2-wrapper {
+    height: fit-content;
+}
+
+.sec2-txt {
+    color :white;
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Copperplate Gothic Bold' ,'Times New Roman', serif;
+}
+
+.sec2-txt-spacer {
+    letter-spacing: 20px;
+}
+
+.desc, .sec3-btn {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.sec2-desc {
+    color: white;
+    font-size: 36px;
+    max-width: 840px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.sec3 {
+    background-image : url('../asset/img3.png');
+}
+
+.block-sec3 {
+    height: 270px;
+}
+
+.sec3-choose {
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    font-family: 'Copperplate Gothic Bold', 'Times New Roman', serif;
+}
+
+.sec3-txt {
+    font-size: 60px;
+    text-align: center;
+    color : #cfcaca
+}
+
+.btn-heroes {
+    background-color: transparent;
+    border-color: white;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 45px;
+    font-family: 'Footlight MT Light', 'Times New Roman', serif;
+    height: 100px;
+    width: 240px;
+    border-width: 5px;
+    cursor: pointer;
+}
+
+.btn-heroes:hover {
+    color: yellow;
+    border-color: yellow;
+}
+
+.sec4 {
+    margin-top: 2rem;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sec4-txt {
+    margin-left: 5rem;
+    width: 40%;
+}
+
+.sec4-join {
+    color: #cfcaca;
+    font-size: 86px;
+    font-family: 'Footlight MT Light', 'Times New Roman', serif;
+    padding-left:1rem;
+    font-weight: 100;
+}
+
+.sec4-battle {
+    color: white;
+    font-size: 96px;
+    font-family: 'Copperplate Gothic Bold', 'Times New Roman', serif;
+}
+
+.sec4-line {
+    margin-top:0.5rem;
+    margin-left:0.3rem;
+    background-color: #cfcaca;
+    height: 10px;
+    width:160px;
+}
+
+.store {
+    width: 300px;
+    height: 100px;
+    border: 4px solid white;
+    border-radius: 1rem;
+    margin: 0 1rem;
+}
+
+footer {
+    margin-top: 12rem;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-txt {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 4rem;
+}
+
+.foot-icon {
+    margin: auto;
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.icon {
+    width: 45px;
+    height: 45px;
+}
+
+.foot-txt p {
+    text-align: center;
+}
+
+.merchandise{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    color: white;
+}
+.merch-left{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    color: white; 
+}
+.merch-right{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    color: white; 
+}
+.clothstyle{
+    width: 250px;
+    height: 250px;
+}
+.itemstyle {
+    color: black;
+    margin-left:30px;
+}
+.picstyle {
+    width: 350px;
+}
+.picstyle2 {
+    width: 250px;
+    margin-top: 110px;
+    margin-bottom: 0px;
+}
+.buyButton{
+    background-color:rgb(54, 168, 54);
+    border-color: white;
+    color: white;
+    width:250px;
+    height:40px;
+}
+.buyButton:hover{
+    background-color:rgb(34, 99, 42);
+}
+#boxstyle{
+    width: 250px;
+    height: 900px;
+    padding: 5px;  
+    border: 15px solid black;
+    margin:0;
+    background-color:#191919;
+}
+.checked{
+    color: orange
+}
+.bintang{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
