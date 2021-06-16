@@ -135,6 +135,11 @@ nav {
     color: white;
 }
 
+.content {
+    margin-top : 4rem;
+    min-height: 370px;
+}
+
 footer {
     margin-top: 2rem;
     margin-bottom: 2rem;

@@ -1,66 +1,67 @@
 .regis-content {
-  max-width: 600px;
-  margin: auto;
+    max-width: 600px;
+    margin: auto;
 }
 
 .form-title {
-  font-size: 50px;
-  font-family: 'Copperplate Gothic Bold', 'Times New Roman', serif;
-  color: white;
-  text-align: center;
+    font-size: 50px;
+    font-family: 'Copperplate Gothic Bold', 'Times New Roman', serif;
+    color: white;
+    text-align: center;
 }
 
 .form-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  color: white;
-  font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    font-size: 16px;
 }
 
 .form-content label {
-  font-size: 20px;
+    font-size: 20px;
 }
 
 .form-content div {
-  margin-top: 1rem;
+    margin-top: 1rem;
 }
 
 .form-content select, .form-content input[type=text], .form-content input[type=password],
 .form-content input[type=username], .form-content input[type=email], .form-content input[type=date] {
-  box-sizing: border-box;
-  border: #000 1px solid;
-  border-radius: 10px;
-  padding: 10px 5px;
-  font-size: 1em;
-  width: 100%;
+    box-sizing: border-box;
+    border: #000 1px solid;
+    border-radius: 10px;
+    padding: 10px 5px;
+    font-size: 1em;
+    width: 100%;
 }
 
 .form-checkbox {
-  max-width: 300px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: auto;
+    max-width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
 }
 
 .form-submit {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .form-submit button {
-  background-color: green;
-  color: white;
-  border-color: green;
-  border-radius: 10px;
-  width: 450px;
-  padding: 1rem;
-  text-align: center;
-  cursor: pointer;
+    background-color: green;
+    color: white;
+    border-color: green;
+    border-radius: 10px;
+    width: 450px;
+    padding: 1rem;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
 }
 
 .form-submit button:hover {
-  background-color: rgb(34, 99, 42);
+    background-color: rgb(34, 99, 42);
 }
