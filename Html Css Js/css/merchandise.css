@@ -1,0 +1,101 @@
+.content {
+    margin-top: 4rem;
+}
+
+.merchandise {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    background: #313131;
+    padding: 4rem 0;
+    border-radius: 10px;
+}
+
+.merch-title {
+    color: white;
+    text-align: center;
+    font-family: 'Copperplate Gothic Bold' ,'Times New Roman', serif;
+}
+
+.merch-left {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    color: white; 
+}
+
+.merch-right {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    color: white; 
+}
+
+.merch-box {
+    width: 250px;
+    height: 900px;
+    padding: 20px;
+    border-radius: 10px;
+    margin:0;
+    background-color:#191919;
+}
+
+.merch-category {
+    font-family: 'Copperplate Gothic Bold' ,'Times New Roman', serif;
+    text-align: center;
+}
+
+.merch-name {
+    text-align: center;
+    font-size: 24px;
+}
+
+.merch-price {
+    text-align: center;
+    font-size: 20px;
+}
+
+.merch-img-container {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.merch-img {
+    width: 250px;
+    height: auto;
+}
+
+.merch-buy-btn {
+    background-color: green;
+    color: white;
+    border-color: green;
+    border-radius: 10px;
+    width: 250px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.merch-buy-btn:hover {
+    background-color:rgb(34, 99, 42);
+}
+
+.rating-star {
+    font-size: 22px;
+}
+
+.rating-star-checked {
+    color: orange
+}
+
+.merch-rating {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
