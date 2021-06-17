@@ -36,16 +36,21 @@ header {
     padding-left: 1.7rem;
     padding-right: 1.7rem;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
-  
 }
 
 nav {
     padding-top : 1rem;
     display: flex;
+    width: 100%;
+    justify-content: space-between;
     align-items: center;
     padding-bottom : 2rem;
+}
+
+#hamburger-box, #hamburger, #menu-close {
+    display: none;
 }
 
 .menu {
@@ -169,4 +174,119 @@ footer {
 
 .foot-txt p {
     text-align: center;
+}
+
+@media only screen and (min-width: 989px) {
+    .menu {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 988px) {
+    /* Desktop */
+}
+
+@media only screen and (max-width: 768px) {
+    /* Tablet */
+    nav {
+        flex-direction: row-reverse;
+        justify-content: end;
+    }
+
+    #hamburger-box {
+        display: inline-block;
+        width: 58px;
+        height: 58px;
+        font-size: 40px;
+        border: white 2px solid;
+        border-radius: 10px;
+        text-align: center;
+        background-color: #191919;
+        color: white;
+        margin-left: 1rem;
+    }
+
+    #hamburger:checked ~ .menu {
+        display: flex;
+    }
+
+    #menu-close {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 58px;
+        height: 58px;
+        position: absolute;
+        top: 16px;
+        right: 27px;
+        font-size: 40px;
+        border: white 2px solid;
+        border-radius: 10px;
+        text-align: center;
+        background-color: #191919;
+        color: white;
+        align-self: flex-end;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .menu {
+        display: none;
+        min-height: 100px;
+        flex-direction: column;
+        justify-content: flex-start;
+        position: absolute;
+        width: 100%;
+        box-sizing: border-box;
+        top: 0;
+        right: 0;
+        padding-left: 0;
+        padding-bottom: 1rem;
+        flex-direction: column;
+        background-color: black;
+    }
+
+    .menu-item {
+        list-style: none;
+        color: white;
+        padding-right: 0;
+        margin-top: 1rem;
+    }
+    
+    .sep {
+        display: none;
+    }
+
+    .menu-dropdown {
+        margin-top: 0;
+    }
+
+    .menu-dropdown a {
+        display: none;
+    }
+
+    .submenu {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        position: static;
+        border: none;
+        background-color: black;
+        color: white;
+        width: 100%;
+        text-align: center;
+    }
+
+    .submenu-item {
+        margin: 0;
+        margin-top: 1rem;
+        padding: 0;
+    }
+
+    .submenu-item a {
+        display: inline;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* Phone */
 }
