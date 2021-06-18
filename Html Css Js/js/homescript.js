@@ -6,6 +6,7 @@ let cek = true;
 slideImages.hide();
 slideImages.eq(cur).show();
 dots[cur].style.backgroundColor = "#2c9ce3";
+var duration = setInterval(autoslide,5000);
 autoslide();
 function autoslide(){
     if(cek){
@@ -18,8 +19,6 @@ function autoslide(){
         dots[cur].style.backgroundColor="#2c9ce3";
         slideImages.eq(cur).fadeIn(2000);
     }
-        setTimeout(autoslide,5000);
-  
 }
 $("#dot1").click(function(){
     dots[cur].style.backgroundColor="white";
@@ -27,6 +26,9 @@ $("#dot1").click(function(){
     cur=0;
     dots[cur].style.backgroundColor="#2c9ce3";
     slideImages.eq(cur).fadeIn(2000);
+    clearInterval(duration);
+    duration = setInterval(autoslide,5000);
+
 })
 
 $("#dot2").click(function(){
@@ -35,6 +37,9 @@ $("#dot2").click(function(){
     cur=1;
     dots[cur].style.backgroundColor="#2c9ce3";
     slideImages.eq(cur).fadeIn(2000);
+    clearInterval(duration);
+    duration = setInterval(autoslide,5000);
+
 })
 
 $("#dot3").click(function(){
@@ -43,6 +48,9 @@ $("#dot3").click(function(){
     cur=2;
     dots[cur].style.backgroundColor="#2c9ce3";
     slideImages.eq(cur).fadeIn(2000);
+    clearInterval(duration);
+    duration = setInterval(autoslide,5000);
+
 })
 $("#dot4").click(function(){
     dots[cur].style.backgroundColor="white";
@@ -50,4 +58,7 @@ $("#dot4").click(function(){
     cur=3;
     dots[cur].style.backgroundColor="#2c9ce3";
     slideImages.eq(cur).fadeIn(2000);
+    clearInterval(duration);
+    duration = setInterval(autoslide,5000);
+
 })
