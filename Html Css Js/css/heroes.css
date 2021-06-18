@@ -1,5 +1,6 @@
 .hero-intro {
-    width: 900px;
+    max-width: 900px;
+    width: 75%;
     padding: 40px;
     margin: 100px auto;
     text-align: center;
@@ -20,6 +21,7 @@
 
 .hero {
     max-width: 1000px;
+    width: 80%;
     margin: 100px auto;
     display: flex;
     align-items: center;
@@ -67,6 +69,81 @@
 
 .hero-sep {
     max-width: 1050px;
+    width: 85%;
     margin: auto;
     border-color: grey;
+}
+
+@media only screen and (max-width: 988px) {
+    /* Desktop */
+
+}
+
+@media only screen and (max-width: 768px) {
+    /* Tablet */
+    .hero-intro-title {
+        font-size: 70px;
+    }
+    
+    .hero-intro-desc {
+        font-size: 28px;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    
+    .hero-even {
+        flex-direction: column-reverse;
+    }
+
+    .hero-img {
+        width: 100%;
+    }
+
+    .hero-odd .hero-img {
+        margin: auto;
+    }
+    
+    .hero-even .hero-img {
+        margin: auto;
+    }
+
+    .hero-name {
+        margin-top: 3rem;
+        font-size: 60px;
+    }
+    
+    .hero-desc {
+        font-size: 28px;
+    }
+    
+    .hero-skill {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* Phone */
+    .hero-intro-title {
+        font-size: 50px;
+    }
+    
+    .hero-intro-desc {
+        font-size: 20px;
+    }
+    
+    .hero-name {
+        font-size: 50px;
+    }
+    
+    .hero-desc {
+        font-size: 20px;
+    }
+    
+    .hero-skill {
+        font-size: 16px;
+    }
 }
