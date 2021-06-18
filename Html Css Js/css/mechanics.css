@@ -1,4 +1,4 @@
-.mech-sec1{
+.mech-sec1 {
     background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -10,18 +10,18 @@
     align-items: center;
 }
 
-.mech-sec1-wrapper{
+.mech-sec1-wrapper {
     text-align: center;
     padding-bottom: 1rem;
 }
 
-.mech-sec1-txt{
+.mech-sec1-txt {
     font-size: 40px;
     font-family: 'Copperplate Gothic Bold' ,'Times New Roman', serif;
     color:white;
 }
 
-.mech-sec1-desc{
+.mech-sec1-desc {
     font-size: 22px;
     font-family: 'Footlight MT Light','Times New Roman',serif;
     font-weight: 200;
@@ -29,13 +29,13 @@
     padding-bottom: 1.5rem;
 }
 
-.mech-btn-group{
+.mech-btn-group {
     width: 450px;
     display: flex;
     justify-content: space-between;
 }
 
-.mech-btn-group button{
+.mech-btn-group button {
     background-color: transparent;
     border-color: white;
     border-radius: 0.5rem;
@@ -48,7 +48,7 @@
     cursor: pointer;
 }
 
-.mech-btn-group button:hover{
+.mech-btn-group button:hover {
     color: rgb(227, 231, 19);
     border-color: rgb(227, 231, 19);
 }
@@ -62,7 +62,7 @@
     margin-bottom:2rem;
 }
 
-.mech-content p, .mech-sec2 p{
+.mech-content p, .mech-sec2 p {
     text-align: justify;
     width: 65%;
     color: #cfcaca;
@@ -71,7 +71,7 @@
     padding-bottom: 1rem;
 }
 
-.mech-content-title{
+.mech-content-title {
     width:65%;
     font-size: 36px;
     color: white;
@@ -79,7 +79,43 @@
     padding-bottom: 3rem;;
 }
 
-.mech-content img{
+.mech-content img {
     width: 50%;
     padding-bottom: 2rem;
+}
+
+@media only screen and (max-width: 988px) {
+    /* Desktop */
+
+}
+
+@media only screen and (max-width: 768px) {
+    /* Tablet */
+    .mech-sec1-txt {
+        font-size: 33px;
+    }
+
+    .mech-sec1-desc {
+        font-size: 20px;
+    }
+
+    .mech-content-title {
+        font-size: 28px;
+    }
+
+    .mech-content p, .mech-sec2 p {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* Phone */
+    .mech-btn-group {
+        width: 300px;
+    }
+
+    .mech-btn-group button {
+        height: 50px;
+        width: 95px;
+    }
 }
