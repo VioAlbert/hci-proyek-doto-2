@@ -15,6 +15,7 @@
     display: flex;
 }
 .slide {
+    position: relative;
     height: 300px;
     width: 550px;
     margin-right : 4rem;

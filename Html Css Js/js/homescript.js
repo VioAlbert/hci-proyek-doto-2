@@ -60,5 +60,4 @@ $("#dot4").click(function(){
     slideImages.eq(cur).fadeIn(2000);
     clearInterval(duration);
     duration = setInterval(autoslide,5000);
-
 })
