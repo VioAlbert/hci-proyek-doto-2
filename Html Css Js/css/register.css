@@ -1,6 +1,8 @@
 .regis-content {
     max-width: 600px;
-    margin: auto;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .form-title {
@@ -55,7 +57,7 @@
     color: white;
     border-color: green;
     border-radius: 10px;
-    width: 450px;
+    width: 85%;
     padding: 1rem;
     font-size: 16px;
     text-align: center;
@@ -64,4 +66,30 @@
 
 .form-submit button:hover {
     background-color: rgb(34, 99, 42);
+}
+
+.error-message {
+    color: red;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 988px) {
+    /* Desktop */
+
+}
+
+@media only screen and (max-width: 768px) {
+    /* Tablet */
+    
+}
+
+@media only screen and (max-width: 480px) {
+    /* Phone */
+    .form-checkbox {
+        max-width: 250px;
+    }
+
+    .form-checkbox label {
+        width: 90%;
+    }
 }
