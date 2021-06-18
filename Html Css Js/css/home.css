@@ -239,6 +239,12 @@
         font-size: 30px;
     }
 
+    .btn-heroes {
+        height: 90px;
+        width: 216px;
+        font-size: 30px;
+    }
+
     .sec4 {
         margin-top: 2rem;
         height: 500px;
@@ -268,6 +274,7 @@
     .sec1-txt {
         font-size: 40px;
     }
+
     .sec2-txt {
         font-size: 50px;
     }
