@@ -54,12 +54,14 @@
     font-size: 24px;
     margin-top: 2rem;
     color: #cfcaca;
+    text-align: justify;
 }
 
 .hero-skill {
     font-size: 20px;
     margin-top: 1.3rem;
     color: #cfcaca;
+    text-align: justify;
 }
 
 .hero-skill-item {

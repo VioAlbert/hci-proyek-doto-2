@@ -38,24 +38,24 @@
         <div class="content regis-content">
             <div class="form-content">
                 <h2 class="form-title">Register</h2>
-                <form action="./home.html">
+                <form action="./home.html" onsubmit="return validate()">
                     <div>
                         <label for="username">Username</label>
                         <input type="username" name="" id="username" placeholder="Username">
                     </div>
-                    <div id="error_message" class="error-message"></div>
+                    <div id="error-message" class="error-message"></div>
 
                     <div>
                         <label for="email">Email</label>
-                        <input type="email" name="" id="email" placeholder="Email">
+                        <input type="text" name="" id="email" placeholder="Email">
                     </div>
-                    <div id="error_message2" class="error-message"></div>
+                    <div id="error-message2" class="error-message"></div>
 
                     <div>
                         <label for="password">Password</label>
                         <input type="password" name="" id="password" placeholder="Password">
                     </div>
-                    <div id="error_message3" class="error-message"></div>
+                    <div id="error-message3" class="error-message"></div>
 
                     <div>
                         <label for="region">Region</label>
@@ -69,19 +69,19 @@
                             <option value="Antarctica">Antarctica</option>
                         </select>
                     </div>
-                    <div id="error_message4" class= "error-message"></div>
+                    <div id="error-message4" class= "error-message"></div>
 
                     <div>
                         <label for="dob">Date of birth</label>
                         <input type="date" name="" id="dob">
                     </div>
-                    <div id="error_message5" class="error-message"></div>
+                    <div id="error-message5" class="error-message"></div>
 
                     <div class="form-checkbox">
                         <input type="checkbox" id="tos" name="tos">
                         <label for="tos">I agree with term and conditions</label>
                     </div>
-                    <div id="error_message6" class="error-message"></div>
+                    <div id="error-message6" class="error-message"></div>
 
                     <div class="form-submit">
                         <button type="submit">

@@ -292,6 +292,11 @@ footer {
     header {
         padding: 0;
     }
+
+    #menu-close {
+        right: 0;
+    }
+
     .img-logo {
         height: 57px;
         width: 120px;
