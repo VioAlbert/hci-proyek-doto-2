@@ -289,4 +289,16 @@ footer {
 
 @media only screen and (max-width: 480px) {
     /* Phone */
+    header {
+        padding: 0;
+    }
+    .img-logo {
+        height: 57px;
+        width: 120px;
+    }
+
+    .btn {
+        height: 48px;
+        width: 120px;
+    }
 }
